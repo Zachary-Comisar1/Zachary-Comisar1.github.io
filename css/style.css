@@ -1,9 +1,142 @@
-@import url('');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Sulphur+Point:wght@700&family=Syncopate:wght@400;700&display=swap');
+
+
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 html {
   font-size: 16px;
 }
 
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
 h2 {
-  
+  font-family: 'Syncopate', sans-serif;
+  color: #222;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Syncopate', sans-serif;
+  color: #222;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Sulphur Point', sans-serif;
+  color: #222;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+title {
+  font-family: 'Syncopate', sans-serif;
+  color: #222
+}
+
+nav {
+  font-family: 'Libre Barcode 128 Text', sans-serif;
+  font-size: 40px;
+
+
+}
+
+header {
+  font-family: 'Syncopate', sans-serif;
+  color: #222
+
+
+}
+
+footer {
+  text-align: center;
+  color: #edabb6;
+
+}
+
+p {
+  font-family: 'Sulphur Point', sans-serif;
+  color: #222
+}
+
+main {
+  padding: 25px 225px 100px 225px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 16%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+
+
+
+
+
+fab fa-spotify{
+  color: #edabb6;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #edabb6;
+}
+
+a:active {
+  color: #edabb6;
 }
